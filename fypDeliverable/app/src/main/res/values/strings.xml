@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Navigation map</string>
-    <string name="access_token" translatable="false">pk.eyJ1IjoiYnJhZHd3ZmMiLCJhIjoiY2szNGVkaGg5MGh1bDNpcGoxdWd1bHlybSJ9.nN4gYnJZAte1-7rvkcLk9Q</string>
+    <string name="access_token" translatable="false">ENTER MAPBOX KEY HERE</string>
     <string name="user_location_permission_explanation">This app needs location permissions to show its functionality.</string>
     <string name="user_location_permission_not_granted">You didn\'t grant location permissions.</string>
     <string name="title_activity_maps">Map</string>
-    <string name="google_maps_key">AIzaSyCsQa2ijkC9uBt51uxBttxOP1BnReuOIwA</string>
-    <string name="directions_api_key">AIzaSyAAvthsZwhyI021b5VSM6qSgL8JicIBO0g</string>
+    <string name="google_maps_key">ENTER KEY HERE</string>
+    <string name="directions_api_key">ENTER KEY HERE</string>
     <string name="no_address_found">\"No Address Found\"</string>
     <string name="service_not_available">\"Service Not Available\"</string>
     <string name="invalid_lat_long_used">\"Invalid Co-ordinates Used\"</string>
