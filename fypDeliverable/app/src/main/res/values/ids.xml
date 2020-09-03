@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="linearLayout" type="id" />
+    <item name="duration" type="id"></item>
+    <item name="GWrecyclerView" type="id" />
+    <item name="startWalk" type="id" />
+</resources>

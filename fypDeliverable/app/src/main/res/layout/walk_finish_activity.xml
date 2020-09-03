@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.finalyearproject.navigation.WalkFinishActivity">
+
+    <TextView
+        android:id="@+id/walk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="WALK"
+        android:textSize="50sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/completed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="COMPLETED"
+        android:textSize="50sp"
+        />
+    <TextView
+        android:id="@+id/dfsf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Press continue to go back"
+        android:textSize="20sp"
+        android:paddingTop="100dp"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/finishWalk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Continue"
+
+        />
+</LinearLayout>

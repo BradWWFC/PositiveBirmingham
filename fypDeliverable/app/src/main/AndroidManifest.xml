@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalyearproject">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".navigation.WalkFinishActivity"></activity>
+        <activity
+            android:name=".pager.TabbedInfo"
+            android:label="@string/title_activity_tabbed_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".GuidedWalkLaunchActivity" />
+        <activity android:name=".InfoScreen" />
+        <activity android:name=".LocationSearchList" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_maps"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GuidedWalkList">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.finalyearproject.MainActivity" />
+        </activity>
+        <activity android:name=".InformationGuidedWalkActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.finalyearproject.MainActivity" />
+        </activity>
+        <activity android:name=".navigation.NavigationView">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.finalyearproject.MainActivity"
+                />
+        </activity>
+
+        <service
+            android:name=".MainActivity"
+            android:foregroundServiceType="location" />
+    </application>
+
+</manifest>
